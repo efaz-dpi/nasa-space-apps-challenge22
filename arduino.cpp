@@ -2,8 +2,9 @@ const int trigPin = 9;
 const int echoPin = 10;
 const int buzzer = 11;
 const int ledPin = 13;
-                            //program for the system connect with ultrasonic sensor
-                                    
+
+
+//program for the system connect with ultrasonic sensor                                    
 
 long duration;
 int distance;
@@ -48,5 +49,6 @@ else{
 // Prints the distance on the Serial Monitor
 Serial.print("Distance: ");
 Serial.println(distance);
-}                                   //  Project by - Be innovative with Prasad
+}                                   
+                                        //  Project by - TEAM KARIGOR
                       
